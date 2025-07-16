@@ -1,0 +1,10 @@
+llm:
+  model: "local-llm"
+  max_tokens: 512
+task_manager:
+  max_tasks: 10
+  prioritization: "relevance"
+vector_store:
+  provider: "pinecone"
+  index: "babyagi-tasks"
+  embedding_model: "all-MiniLM-L6-v2" 
